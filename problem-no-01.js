@@ -2,9 +2,6 @@ function cubeNumber(number){
     if(typeof number !== 'number'){
         return 'Please enter a valid number';
     }
-    if(number < 0){
-        return 'Enter a positive number';
-    }
     const result = Math.pow(number, 3);
     return result;
 }

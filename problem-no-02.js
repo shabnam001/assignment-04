@@ -5,16 +5,9 @@ function matchFinder(string1, string2) {
     const result = string1.includes(string2);
     return result;
 }
-// console.log(matchFinder('john', 'ohn'));
-// console.log(matchFinder('JavaScript', 'Code'));
-// console.log(matchFinder('Peter parker', 'Pen'));
-// console.log(matchFinder('Peter Parker', 'pet'));
+console.log(matchFinder('john', 'ohn'));
+console.log(matchFinder('JavaScript', 'Code'));
+console.log(matchFinder('Peter parker', 'Pen'));
+console.log(matchFinder('Peter Parker', 'pet'));
 console.log(matchFinder('Peter Parker', 2));
-console.log(matchFinder(52, 2));
-
-// if(false){
-//     console.log('error1');
-// }
-// if(true){
-//     console.log('error2');
-// }
+console.log(matchFinder(52, 2)); 
