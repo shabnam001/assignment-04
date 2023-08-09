@@ -12,9 +12,9 @@ function findAdress(obj){
     // return obj.street+","+obj.house+","+obj.society;
 }
 
-let addres = {
+let address = {
     street: 10,
     house: "15A",
     society: "Earth Perfect"
 }
-console.log(findAdress(addres));
+console.log(findAdress(address));
