@@ -1,8 +1,6 @@
 function sortMaker(arr) {
     let number1 = arr[0];
     let number2 = arr[1];
-    // const resultArray = [];
-
     if (number1 < 0 || number2 < 0) {
         return "Invalid Input";
     }
@@ -16,8 +14,6 @@ function sortMaker(arr) {
         arr = [number1, number2];
     }
     return arr;
-
-
 }
 console.log(sortMaker([3, 5]));
 console.log(sortMaker([-1, 5]));

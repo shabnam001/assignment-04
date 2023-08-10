@@ -10,7 +10,6 @@ function findAddress(obj){
         return street+","+house+","+society;
     }
 }
-
 let address = {
     street: 0,
     house: "15A",

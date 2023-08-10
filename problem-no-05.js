@@ -14,7 +14,6 @@ function canPay(changeArray, totalDue) {
     if(sum < totalDue){
         return false;
     }
-    
 }
 // let arr = [5, 5, 5];
 console.log(canPay([ , 5, 5], 10));
