@@ -1,4 +1,4 @@
-function findAdress(obj){
+function findAddress(obj){
     if(typeof obj !== "object"){
         return "Please provide a valid object";
     }
@@ -12,8 +12,8 @@ function findAdress(obj){
 }
 
 let address = {
-    street: 10,
+    street: 0,
     house: "15A",
     society: "Earth Perfect"
 }
-console.log(findAdress(address));
+console.log(findAddress(address));
