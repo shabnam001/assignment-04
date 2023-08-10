@@ -1,6 +1,6 @@
 function canPay(changeArray, totalDue) {
-    if(changeArray[0] == null){
-        return 'please provide array frist element'
+    if(changeArray.element == null){
+        return 'please provide array element'
     }
     let sum = 0;
     for(let i = 0; i < changeArray.length; i++){
@@ -16,4 +16,4 @@ function canPay(changeArray, totalDue) {
     }
 }
 // let arr = [5, 5, 5];
-console.log(canPay([ , 5, 5], 10));
+console.log(canPay([ ], 10));
